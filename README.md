@@ -13,7 +13,7 @@ Drush 5.9
 =
 於終端機中，輸入以下指令來安裝並更新 Drush：
 ```bash
-sudo apt-get install drush && 
+sudo aptitude install drush && 
 sudo drush dl drush --destination='/usr/share'
 ```
 DONE.
