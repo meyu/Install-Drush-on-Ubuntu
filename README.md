@@ -11,9 +11,9 @@ Drush 5.9
 
 推薦安裝方式
 =
-於終端機中，輸入以下指令來安裝並更新 Drush：
+於終端機中，輸入以下指令來安裝 Drush 及 PHP-GD Graphics Library，並更新 Drush：
 ```bash
-sudo aptitude install drush && 
+sudo aptitude install drush php5-gd && 
 sudo drush dl drush --destination='/usr/share'
 ```
 DONE.
@@ -24,6 +24,8 @@ DONE.
 =
 * Ubuntu 12.04 預設是安裝 Drush 4.5，但官方建議使用 5.6 以上的版本，故請務必進行更新。
 * 欲查詢所安裝的 Drush 版本，可使用：<code>drush --version</code>
+* 日後要更新 Drush 時，使用 <code>sudo drush dl drush --destination='/usr/share'</code> 即可。
+* PHP-GD Graphics Library
 
 參考資源
 =
