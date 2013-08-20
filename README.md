@@ -25,10 +25,11 @@ DONE.
 * Ubuntu 12.04 預設是安裝 Drush 4.5，但官方建議使用 5.6 以上的版本，故請務必進行更新。
 * 欲查詢所安裝的 Drush 版本，可使用：<code>drush --version</code>
 * 日後要更新 Drush 時，使用 <code>sudo drush dl drush --destination='/usr/share'</code> 即可。
-* PHP-GD Graphics Library
+* PHP-GD Graphics Library 為一圖像工具，亦為 Drush 在架設 Drupal 網站時的需求套件之一，故建議一併安裝。
 
 參考資源
 =
 * [Drush | drupal.org](https://drupal.org/project/drush)
 * [Drush.org](http://www.drush.org/)
 * [Installing/Upgrading Drush on Ubuntu | drupal.org](https://drupal.org/node/1248790)
+* [How to Install Drush on a Cloud Server Running Ubuntu 12.04 | DigitalOcean](https://www.digitalocean.com/community/articles/how-to-install-drush-on-a-cloud-server-running-ubuntu-12-04)
