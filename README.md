@@ -6,12 +6,17 @@
 使用環境
 =
 Ubuntu 12.04 Server  
-Drush 5.9
+Drush 6
 
 
 推薦安裝方式
 =
-於終端機中，輸入以下指令來安裝 Drush 及 PHP-GD Graphics Library，並更新 Drush：
+--於終端機中，輸入以下指令來安裝 
+```bash
+sudo apt-get install php-pear
+```
+
+Drush 及 PHP-GD Graphics Library，並更新 Drush：--
 ```bash
 sudo aptitude install drush php5-gd && 
 sudo drush dl drush --destination='/usr/share'
@@ -31,5 +36,6 @@ DONE.
 =
 * [Drush | drupal.org](https://drupal.org/project/drush)
 * [Drush.org](http://www.drush.org/)
+* [drush-ops/drush](https://github.com/drush-ops/drush)
 * [Installing/Upgrading Drush on Ubuntu | drupal.org](https://drupal.org/node/1248790)
 * [How to Install Drush on a Cloud Server Running Ubuntu 12.04 | DigitalOcean](https://www.digitalocean.com/community/articles/how-to-install-drush-on-a-cloud-server-running-ubuntu-12-04)
