@@ -6,21 +6,21 @@
 使用環境
 =
 Ubuntu 12.04 Server  
-Drush 6
-
-
+Drush 6.0
+   
 推薦安裝方式
 =
---於終端機中，輸入以下指令來安裝 
+請先確保主機可使用 PEAR 套裝函式庫，並載入 Drush 的安裝頻道：
 ```bash
-sudo apt-get install php-pear
+sudo apt-get install php-pear && 
+sudo pear channel-discover pear.drush.org 
 ```
-
-Drush 及 PHP-GD Graphics Library，並更新 Drush：--
+安裝 Drush 及 PHP-GD Graphics Library，並更新 Drush：
 ```bash
 sudo aptitude install drush php5-gd && 
-sudo drush dl drush --destination='/usr/share'
+sudo pear install drush/drush
 ```
+   
 DONE.
 <br>
 <br>
@@ -29,7 +29,7 @@ DONE.
 =
 * Ubuntu 12.04 預設是安裝 Drush 4.5，但官方建議使用 5.6 以上的版本，故請務必進行更新。
 * 欲查詢所安裝的 Drush 版本，可使用：<code>drush --version</code>
-* 日後要更新 Drush 時，使用 <code>sudo drush dl drush --destination='/usr/share'</code> 即可。
+* 日後要更新 Drush 時，使用 <code>sudo pear install drush/drush</code> 即可。
 * PHP-GD Graphics Library 為一圖像工具，亦為 Drush 在架設 Drupal 網站時的需求套件之一，故建議一併安裝。
 
 參考資源
