@@ -16,9 +16,9 @@ Drush 6.0
 sudo apt-get install php-pear && 
 sudo pear channel-discover pear.drush.org 
 ```
-安裝 Drush 及 PHP-GD Graphics Library，並更新 Drush：
+安裝 Drush、PHP-GD Graphics Library 及 Zip 套件，並更新 Drush：
 ```bash
-sudo apt-get install drush php5-gd && 
+sudo apt-get install drush php5-gd zip && 
 sudo pear install drush/drush
 ```
    
@@ -32,6 +32,7 @@ DONE.
 * 欲查詢所安裝的 Drush 版本，可使用：<code>drush --version</code>
 * 日後要更新 Drush 時，使用 <code>sudo pear install drush/drush</code> 即可。
 * PHP-GD Graphics Library 為一圖像工具，亦為 Drush 在架設 Drupal 網站時的需求套件之一，故建議一併安裝。
+* Zip 為壓縮套件，可方便日後下載模組相關元件之作業，建議一併安裝。
    
 參考資源
 =
