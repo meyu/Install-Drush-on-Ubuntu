@@ -18,7 +18,7 @@ sudo pear channel-discover pear.drush.org
 ```
 安裝 Drush 及 PHP-GD Graphics Library，並更新 Drush：
 ```bash
-sudo aptitude install drush php5-gd && 
+sudo apt-get install drush php5-gd && 
 sudo pear install drush/drush
 ```
    
